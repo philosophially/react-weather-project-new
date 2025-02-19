@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container">
         <h1>Weather App</h1>
+        <Weather />
 
         <br />
-        <p>
+        <footer>
           🙌🏼 This project was coded by Sophia Lee and it is{" "}
           <a
             href="https://github.com/philosophially/weather-project-react"
@@ -18,8 +20,8 @@ function App() {
             open-sourced
           </a>{" "}
           👩🏼‍💻
-        </p>
-      </header>
+        </footer>
+      </div>
     </div>
   );
 }

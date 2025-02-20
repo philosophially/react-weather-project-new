@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>React Weather App</h1>
-        <Weather />
+        <Weather defaultCity="Bangkok" />
 
         <br />
         <footer>

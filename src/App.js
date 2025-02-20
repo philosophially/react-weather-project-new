@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <h1>React Weather App</h1>
         <Weather />
 
         <br />

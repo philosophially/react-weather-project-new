@@ -19,7 +19,7 @@ function App() {
           >
             open-sourced
           </a>{" "}
-          👩🏼‍💻
+          on Github 👩🏼‍💻
         </footer>
       </div>
     </div>

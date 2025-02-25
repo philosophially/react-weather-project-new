@@ -13,7 +13,7 @@ function App() {
         <footer>
           🙌🏼 This project was coded by Sophia Lee and it is{" "}
           <a
-            href="https://github.com/philosophially/weather-project-react"
+            href="https://github.com/philosophially/react-weather-project-new"
             target="_blank"
             rel="noreferrer"
           >

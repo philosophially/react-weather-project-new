@@ -1,0 +1,16 @@
+.weather-icon-container {
+  display: flex;
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+}
+
+.weather-icon {
+  width: 20%; /* Or a percentage of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .weather-icon {
+    width: 30%; /* Smaller on smaller screens */
+  }
+}

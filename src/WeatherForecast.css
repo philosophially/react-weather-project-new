@@ -1,8 +1,21 @@
 .WeatherForecast {
   text-align: center;
+  font-size: 17px;
 }
 
 .WeatherForecast-temp-minimum {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+@media (max-width: 960px) {
+  .WeatherForecast {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .WeatherForecast-temp-minimum {
+    opacity: 0.6;
+    margin-left: 5px;
+  }
 }

@@ -32,21 +32,6 @@
   display: inline-block;
 }
 
-.Weather .temperature {
-  font-weight: 300;
-  font-size: 60px;
-  line-height: 60px;
-}
-
-.Weather .unit {
-  font-size: 17px;
-  font-weight: 400;
-  position: relative;
-  line-height: 1;
-  top: -30px;
-  margin-left: 5px;
-}
-
 .btn {
   background-color: #98002d;
   border-color: #98002d;
@@ -55,3 +40,90 @@
 a {
   color: #98002d;
 }
+
+@media (max-width: 768px) {
+  .Weather h1 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+  }
+
+  .Weather li {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 20px;
+    list-style: none;
+  }
+
+  .WeatherTemp .temperature {
+    font-weight: 300;
+    font-size: 40px;
+  }
+
+  .WeatherTemp .unit {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    bottom: 25px;
+    margin-left: 5px;
+  }
+}
+
+/*
+@media (max-width: 960px) {
+
+    h1 {
+        font-size: 24px;
+        margin: 12px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+     .hero h4 {
+        font-size: 22px;
+    }
+
+    .after-hero {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .hero .sophia-128 {
+    width:  300px;
+    height: 200px;
+    object-fit: fill;
+    filter: sepia(20%);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: var(--branding-color);
+    font-family: "Nunito", sans-serif;
+    font-size: 10px;
+}
+
+footer .social-links a {
+    color: rgb(88, 135, 59);
+    font-size: 20px;
+
+}
+
+}
+*/

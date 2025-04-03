@@ -1,0 +1,24 @@
+.WeatherTemp .temperature {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.WeatherTemp .unit {
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+
+  bottom: 35px;
+  margin-left: 5px;
+}
+
+/*
+Previous CSS for .WeatherTemp .unit {
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -30px;
+  margin-left: 5px;
+} */

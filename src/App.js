@@ -15,7 +15,7 @@ function App() {
           <a
             href="https://github.com/philosophially/react-weather-project-new"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced
           </a>{" "}

@@ -8,7 +8,7 @@
   margin-left: 5px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 600px) {
   .WeatherForecast {
     text-align: center;
     font-size: 13px;

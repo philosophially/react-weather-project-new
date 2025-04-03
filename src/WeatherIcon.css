@@ -9,7 +9,7 @@
   height: auto; /* Maintain aspect ratio */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .weather-icon {
     width: 30%; /* Smaller on smaller screens */
   }

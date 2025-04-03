@@ -46,3 +46,12 @@
   top: -30px;
   margin-left: 5px;
 }
+
+.btn {
+  background-color: #98002d;
+  border-color: #98002d;
+}
+
+a {
+  color: #98002d;
+}

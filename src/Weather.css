@@ -1,6 +1,7 @@
 .Weather {
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   border: 1px solid #9ba6a5;
-  color: #757a79;
+  color: #41506b;
   padding: 25px;
   margin: 15px auto;
   max-width: 550px;
